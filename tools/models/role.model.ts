@@ -1,9 +1,8 @@
 import { AuditModel } from "./audit.model";
 
-export class RoleModel [
+export class RoleModel {
+    id : string;
+    name : string;
+    audit : AuditModel;
 
-    id: string;
-    name: string;
-    audit :AuditModel;
-
-]
+}
